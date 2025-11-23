@@ -59,9 +59,9 @@ params:
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
-          buttons:
-            - name: Papers
-              url: papers/
+          #buttons:
+          #  - name: Papers
+          #    url: papers/
             
 
     socialIcons:
