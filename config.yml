@@ -59,7 +59,7 @@ params:
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
-          #buttons:
+          buttons:
           #  - name: Papers
           #    url: papers/
             
