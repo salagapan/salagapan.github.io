@@ -54,8 +54,8 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Dr Sankaraleengam Alagapan
-          subtitle: "I am a Research Faculty member at Georgia Institute of Technology. I co-direct the Structured Information for Precision Neuroengineering Lab within the School of Electrical and Computer Engineering. I work at the intersection of neurotechnology and psychiatry with the aim of developing brain stimulation therapies for psychiatric disorders.  I received my PhD in Biomedical Engineering from the University of Florida. Prior to joining Georgia Tech, I was a post-doctoral research associate at the University of North Carolina at Chapel Hill, working in the Carolina Center for Neurostimulation (spun off from Frohlich Lab). I enjoy photography, travel (to a certain extent) and (re)learning history."
+          title: Sankaraleengam Alagapan, PhD
+          subtitle: "I am a Research Faculty member at Georgia Institute of Technology. I co-direct the Structured Information for Precision Neuroengineering Lab within the School of Electrical and Computer Engineering. I work at the intersection of neurotechnology and psychiatry with the aim of developing brain stimulation therapies for psychiatric disorders. | I received my PhD in Biomedical Engineering from the University of Florida. Prior to joining Georgia Tech, I was a post-doctoral research associate at the University of North Carolina at Chapel Hill, working in the Carolina Center for Neurostimulation (spun off from Frohlich Lab). I enjoy photography, travel (to a certain extent) and (re)learning history."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
