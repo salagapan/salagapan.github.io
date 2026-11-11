@@ -1,0 +1,111 @@
+# CV data rendered on /cv/ (RenderCV-style YAML, rendered by the al_folio_cv gem).
+# Section names "Education", "Experience", and "Honors and Awards" get dedicated layouts;
+# other sections are rendered as simple bullet lists (each item uses the `bullet:` key).
+# The full PDF CV lives at assets/pdf/Alagapan_CV.pdf.
+cv:
+  name: Sankaraleengam (Sankar) Alagapan
+  label: Research Scientist II, School of Electrical and Computer Engineering, Georgia Institute of Technology
+  email: sankar.alagapan@gatech.edu
+  address:
+    street: 756 W Peachtree St, Coda S1165A
+    city: Atlanta
+    region: GA
+    postalCode: "30308"
+  summary: Human neuroscience, brain stimulation, and NeuroAI.
+
+  sections:
+    Education:
+      - institution: University of Florida
+        location: Gainesville, FL
+        area: Biomedical Engineering
+        studyType: PhD
+        date: 2014
+      - institution: University of Florida
+        location: Gainesville, FL
+        area: Biomedical Engineering
+        studyType: MS
+        date: 2008
+      - institution: Anna University
+        location: Chennai, India
+        area: Electrical and Electronics Engineering
+        studyType: BE
+        date: 2007
+
+    Experience:
+      - company: Georgia Institute of Technology
+        position: Research Scientist II
+        location: Atlanta, GA
+        start_date: 2022
+      - company: Georgia Institute of Technology
+        position: Research Engineer II
+        location: Atlanta, GA
+        start_date: 2018
+        end_date: 2022
+      - company: University of North Carolina at Chapel Hill
+        position: Postdoctoral Research Associate
+        location: Chapel Hill, NC
+        start_date: 2014
+        end_date: 2018
+      - company: University of Florida
+        position: Graduate Research Assistant
+        location: Gainesville, FL
+        start_date: 2008
+        end_date: 2014
+
+    Honors and Awards:
+      - title: Best Faculty Paper Award
+        date: 2024
+        awarder: Sigma Xi, Georgia Institute of Technology
+      - title: Roger P. Webb Outstanding Non-Tenure Faculty Award
+        date: 2024
+        awarder: Georgia Institute of Technology
+      - title: Georgia CTSA KL2 Scholar
+        date: 2023
+        awarder: Georgia Clinical and Translational Science Alliance
+      - title: Helen Lyng White Postdoctoral Fellowship
+        date: 2016
+        awarder: University of North Carolina at Chapel Hill
+      - title: Office of Postdoctoral Affairs Travel Award
+        date: 2016
+        awarder: University of North Carolina at Chapel Hill
+      - title: Office of Research Travel Award
+        date: 2013
+        awarder: University of Florida (also 2010)
+      - title: Graduate Student Council Travel Award
+        date: 2011
+        awarder: University of Florida
+      - title: College of Engineering Achievement Award
+        date: 2007
+        awarder: University of Florida
+
+    Research Support:
+      - bullet: "**A naturalistic multimodal platform for capturing brain-body interactions in people during physical effort-based decision making** (2025–2028). NIH NIMH R61MH138966. Role: Co-Investigator."
+      - bullet: "**Multimodal biometrics to optimize and scale decision support for depression DBS** (2025–2030). NIH NINDS UH3. Role: Co-Investigator."
+      - bullet: "**Georgia Clinical and Translational Science Alliance KL2 Scholar** (2023–2025). NIH NCATS KL2TR002381. Role: KL2 Scholar."
+      - bullet: "**Electrophysiological biomarkers to optimize DBS for depression** (2019–2024). NIH NINDS UH3 NS103550. Role: Postdoc / Team Lead."
+
+    Invited Talks:
+      - bullet: "CNS 2025 Workshop, Florence, Italy (2025)"
+      - bullet: "Minnesota Neuromodulation Symposium, Minneapolis, MN (2025)"
+      - bullet: "6th Bioelectronic Medicine Summit, New York, NY (2025)"
+      - bullet: "Neurology Grand Rounds, Emory University, Atlanta, GA (2024)"
+      - bullet: "O'Donnell Brain Institute, UT Southwestern, Dallas, TX (2024)"
+      - bullet: "Psychology Department Seminar, Emory University, Atlanta, GA (2023)"
+      - bullet: "Society for Neuroscience Annual Meeting, Nanosymposium, Washington, DC (2023)"
+      - bullet: "Society for Neuroscience Annual Meeting, Nanosymposium, San Diego, CA (2022)"
+      - bullet: "Society of Biological Psychiatry Annual Meeting, Symposium, New Orleans, LA (2022)"
+      - bullet: "Transcranial Electric Stimulation Workshop, Carolina Neurostimulation Conference, Chapel Hill, NC (2018)"
+      - bullet: "SIAM Southeast Atlantic Section Conference, Chapel Hill, NC (2018)"
+      - bullet: "Neuroscience Center Seminar Series, UNC Chapel Hill, NC (2017)"
+
+    Teaching:
+      - bullet: "Guest Lecturer, Network Neuroscience, UNC Chapel Hill (2015, 2017)"
+      - bullet: "Graduate Teaching Assistant, Neural Engineering, University of Florida (2011)"
+      - bullet: "Graduate Teaching Assistant, Neurodynamics, University of Florida (2010)"
+
+    Service:
+      - bullet: "Review Panelist, National Science Foundation (2025)"
+      - bullet: "Reviewer, MEXA Accelerator (2025)"
+      - bullet: "Nanosymposium Chair, Society for Neuroscience Annual Meeting (2022)"
+      - bullet: "Conference Program Committee, Carolina Neurostimulation Conference (2018)"
+      - bullet: "Ad-hoc reviewer (2016–): Nature, Science, Nature Communications, Biological Psychiatry, Biological Psychiatry: CNNI, Journal of Computational Neuroscience, Psychological Medicine, Scientific Reports, Psychiatry Research, Neuroscience Letters, Journal of Neuroscience Methods, NeuroImage, Frontiers in Neuroscience, IEEE Journal of Biomedical and Health Informatics"
