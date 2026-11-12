@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research Faculty, School of Electrical and Computer Engineering, <a href="https://www.gatech.edu/">Georgia Institute of Technology</a>
+subtitle: Senior Research Scientist, School of Electrical and Computer Engineering, <a href="https://www.gatech.edu/">Georgia Institute of Technology</a>
 
 profile:
   align: right
