@@ -7,7 +7,7 @@ cv:
   label: Senior Research Scientist, School of Electrical and Computer Engineering, Georgia Institute of Technology
   email: sankar.alagapan@gatech.edu
   address:
-    street: 756 W Peachtree St, Coda S1165A
+    street: 756 W Peachtree St, Coda S1165B
     city: Atlanta
     region: GA
     postalCode: "30308"
@@ -20,6 +20,8 @@ cv:
         area: Biomedical Engineering
         studyType: PhD
         date: 2014
+        courses:
+          - "Dissertation: Information propagation in engineered neuronal networks"
       - institution: University of Florida
         location: Gainesville, FL
         area: Biomedical Engineering
@@ -35,7 +37,12 @@ cv:
       - company: Georgia Institute of Technology
         position: Senior Research Scientist
         location: Atlanta, GA
+        start_date: 2026
+      - company: Georgia Institute of Technology
+        position: Research Scientist II
+        location: Atlanta, GA
         start_date: 2022
+        end_date: 2026
       - company: Georgia Institute of Technology
         position: Research Engineer II
         location: Atlanta, GA
@@ -53,9 +60,9 @@ cv:
         end_date: 2014
 
     Honors and Awards:
-      - title: Best Faculty Paper Award
+      - title: Sigma Xi Best Faculty Paper Award
         date: 2024
-        awarder: Sigma Xi, Georgia Institute of Technology
+        awarder: Georgia Institute of Technology
       - title: Roger P. Webb Outstanding Non-Tenure Faculty Award
         date: 2024
         awarder: Georgia Institute of Technology
@@ -68,24 +75,23 @@ cv:
       - title: Office of Postdoctoral Affairs Travel Award
         date: 2016
         awarder: University of North Carolina at Chapel Hill
-      - title: Office of Research Travel Award
-        date: 2013
-        awarder: University of Florida (also 2010)
-      - title: Graduate Student Council Travel Award
-        date: 2011
-        awarder: University of Florida
-      - title: College of Engineering Achievement Award
-        date: 2007
-        awarder: University of Florida
 
     Research Support:
-      - bullet: "**A naturalistic multimodal platform for capturing brain-body interactions in people during physical effort-based decision making** (2025–2028). NIH NIMH R61MH138966. Role: Co-Investigator."
-      - bullet: "**Multimodal biometrics to optimize and scale decision support for depression DBS** (2025–2030). NIH NINDS UH3. Role: Co-Investigator."
-      - bullet: "**Georgia Clinical and Translational Science Alliance KL2 Scholar** (2023–2025). NIH NCATS KL2TR002381. Role: KL2 Scholar."
-      - bullet: "**Electrophysiological biomarkers to optimize DBS for depression** (2019–2024). NIH NINDS UH3 NS103550. Role: Postdoc / Team Lead."
+      - bullet: "**A naturalistic multimodal platform for capturing brain-body interactions during physical effort-based decision making** (2025–2028). NIH NIMH. Role: Co-Investigator."
+      - bullet: "**Multimodal biometrics to optimize and scale decision support for depression DBS** (2025–2030). NIH NINDS. Role: Co-Investigator."
+      - bullet: "**Georgia Clinical and Translational Science Alliance** (2023–2025). NIH NCATS. Role: KL2 Scholar."
+
+    Mentoring:
+      - bullet: "**Postdoctoral fellows:** Parisa Sarikhani (2024–present; Georgia CTSA TL1 and Presidential Postdoctoral Fellow), Ermyntrude Adjei (2026–present). Both co-advised with Chris Rozell."
+      - bullet: "**PhD students:** Elif Ceren Fitoz (2022–present), Tyler Albarran (2023–present; CNTP Training Fellow), Vivek Anand (2023–present; NDSEG Fellow, CNTP Training Fellow), Shreesh Karjagi (2025–present). All co-advised with Chris Rozell."
+      - bullet: "**Master's students:** Dong Yeun Kim (2025–2026), Vikram Kaushik (2024–2025)."
+      - bullet: "**Research staff:** Emir Akat, Research Technician (2026–present); Camilla May, Research Technician (2023–2026)."
+      - bullet: "**Dissertation committees:** Aryaman Gala, PhD Neuroscience, Emory (2026–); Xuanzhou Chen, PhD Machine Learning, Georgia Tech (2026–)."
 
     Invited Talks:
-      - bullet: "CNS 2025 Workshop, Florence, Italy (2025)"
+      - bullet: "BIONIC Adaptive Neuromodulation and BCI Symposium, Rochester, MN (2026)"
+      - bullet: "ANT NeuroMeeting, Philadelphia, PA (2026)"
+      - bullet: "CNS 2025 Workshop on Explainable AI, virtual (2025)"
       - bullet: "Minnesota Neuromodulation Symposium, Minneapolis, MN (2025)"
       - bullet: "6th Bioelectronic Medicine Summit, New York, NY (2025)"
       - bullet: "Neurology Grand Rounds, Emory University, Atlanta, GA (2024)"
@@ -97,11 +103,6 @@ cv:
       - bullet: "Transcranial Electric Stimulation Workshop, Carolina Neurostimulation Conference, Chapel Hill, NC (2018)"
       - bullet: "SIAM Southeast Atlantic Section Conference, Chapel Hill, NC (2018)"
       - bullet: "Neuroscience Center Seminar Series, UNC Chapel Hill, NC (2017)"
-
-    Teaching:
-      - bullet: "Guest Lecturer, Network Neuroscience, UNC Chapel Hill (2015, 2017)"
-      - bullet: "Graduate Teaching Assistant, Neural Engineering, University of Florida (2011)"
-      - bullet: "Graduate Teaching Assistant, Neurodynamics, University of Florida (2010)"
 
     Service:
       - bullet: "Review Panelist, National Science Foundation (2025)"
