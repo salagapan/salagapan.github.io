@@ -4,7 +4,7 @@
 # The full PDF CV lives at assets/pdf/Alagapan_CV.pdf.
 cv:
   name: Sankaraleengam (Sankar) Alagapan
-  label: Research Scientist II, School of Electrical and Computer Engineering, Georgia Institute of Technology
+  label: Senior Research Scientist, School of Electrical and Computer Engineering, Georgia Institute of Technology
   email: sankar.alagapan@gatech.edu
   address:
     street: 756 W Peachtree St, Coda S1165A
@@ -33,7 +33,7 @@ cv:
 
     Experience:
       - company: Georgia Institute of Technology
-        position: Research Scientist II
+        position: Senior Research Scientist
         location: Atlanta, GA
         start_date: 2022
       - company: Georgia Institute of Technology

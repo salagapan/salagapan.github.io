@@ -8,10 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: >
-    <p>School of Electrical and Computer Engineering</p>
-    <p>Coda S1165A, 756 W Peachtree St NW</p>
-    <p>Atlanta, GA 30308</p>
 
 selected_papers: true # lists papers marked selected={true} in _bibliography/papers.bib
 social: true
