@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Research Faculty, School of Electrical and Computer Engineering, <a href="https://www.gatech.edu/">Georgia Institute of Technology</a>
 
