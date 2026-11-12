@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /research/
-title: research
+title: Research
 description: How brain networks generate behavior and symptoms, and how stimulation can steer them.
 nav: true
 nav_order: 1
