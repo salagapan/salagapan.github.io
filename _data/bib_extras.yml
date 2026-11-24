@@ -1,0 +1,87 @@
+# Site-only settings for publications synced from Zotero (bin/zotero_sync.py).
+# Zotero holds the bibliographic data; this file holds what the website adds on top.
+#
+# venues:      badge text by journal / conference / preprint server name
+#              (matching ignores case and braces). New papers in these venues
+#              get the badge automatically.
+# item_types:  fallback badge by Zotero item type when no venue badge applies.
+# entries:     per-paper settings, keyed by the BibTeX key Zotero generates
+#              (e.g. alagapan_cingulate_2023). Supported fields: abbr, selected,
+#              html, pdf, code, arxiv, website, slides, poster, video.
+#              Set `selected: true` to show a paper on the home page.
+#
+# The sync log lists any entry key below that no longer matches a Zotero item
+# (this happens if you edit an item's title or year in Zotero).
+venues:
+  2023 11th International IEEE/EMBS Conference on Neural Engineering (NER): IEEE NER
+  Advances in Neural Information Processing Systems: NeurIPS
+  arXiv: arXiv
+  Biological Psychiatry: Biol Psychiatry
+  'Biological Psychiatry: Cognitive Neuroscience and Neuroimaging': Biol Psych CNNI
+  bioRxiv: bioRxiv
+  Cell Reports: Cell Rep
+  Cerebral Cortex: Cereb Cortex
+  Current Biology: Curr Biol
+  European Journal of Neuroscience: EJN
+  European Psychiatry: Eur Psychiatry
+  Frontiers in Bioengineering and Biotechnology: Front Bioeng
+  Frontiers in Human Neuroscience: Front Hum Neurosci
+  Frontiers in neural circuits: Front Neural Circuits
+  IEEE transactions on nanobioscience: IEEE TNB
+  IEEE Transactions on Neural Systems and Rehabilitation Engineering: IEEE TNSRE
+  Journal of music therapy: J Music Ther
+  Journal of neural engineering: J Neural Eng
+  medRxiv: medRxiv
+  Nature: Nature
+  NeuroImage: NeuroImage
+  PLoS biology: PLoS Biol
+  Scientific Reports: Sci Rep
+  The Conversation: The Conversation
+  'Transcranial Direct Current Stimulation in Neuropsychiatric Disorders: Clinical Principles and Management': Book Chapter
+  Translational Psychiatry: Transl Psychiatry
+item_types:
+  preprint: Preprint
+  presentation: Poster
+  patent: Patent
+  thesis: PhD Thesis
+  bookSection: Book Chapter
+entries:
+  pinotsis_ephaptic_2026:
+    html: https://doi.org/10.1093/cercor/bhag019
+  anand_lore_2026:
+    arxiv: '2602.04192'
+    abbr: arXiv
+  fitoz_common_2026:
+    html: https://www.medrxiv.org/content/10.64898/2026.04.13.26350107.abstract
+    abbr: medRxiv
+  desai_longitudinal_2025:
+    html: https://www.biorxiv.org/content/10.1101/2025.11.26.690543.abstract
+    abbr: bioRxiv
+  van_rheede_cortical_2024:
+    selected: true
+  chen_probabilistic_2024:
+    selected: true
+  alagapan_cingulate_2023:
+    selected: true
+  alagapan_network-targeted_2019:
+    selected: true
+  alagapan_modulation_2016:
+    selected: true
+  alagapan_information_2014:
+    abbr: PhD Thesis
+  anand_biking_2025:
+    abbr: Poster
+  sarikhani_biophysical_2025:
+    abbr: Poster
+  albarran_human_2025:
+    abbr: Poster
+  fitoz_explainable_2025:
+    abbr: Poster
+  alagapan_system_2024:
+    abbr: Patent
+  albarran_anterior_2024:
+    abbr: Poster
+  rozell_depression_2023:
+    html: https://theconversation.com/depression-recovery-can-be-hard-to-measure-new-research-on-deep-brain-stimulation-shows-how-objective-biomarkers-could-help-make-treatment-more-precise-213647
+  alagapan_longitudinal_2020:
+    abbr: Abstract

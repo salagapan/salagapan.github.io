@@ -1,0 +1,63 @@
+name: Update publications from Zotero
+
+# Pulls the Zotero collection, rebuilds _bibliography/*.bib, and redeploys if anything changed.
+# Runs every Monday, and on demand from the Actions tab ("Run workflow").
+on:
+  schedule:
+    - cron: "17 10 * * 1" # Mondays 10:17 UTC (5:17 am Eastern)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run: show what would change, but don't commit or deploy"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write # commit the updated .bib files
+  actions: write # start the deploy workflow
+
+concurrency:
+  group: zotero-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install pyyaml
+
+      - name: Rebuild bibliography from Zotero
+        env:
+          ZOTERO_USER_ID: "5299189"
+          ZOTERO_COLLECTION: "8HPPG5Y4"
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }} # optional if the library is public
+        run: python bin/zotero_sync.py
+
+      - name: Show changes
+        run: |
+          git --no-pager diff --stat -- _bibliography
+          git --no-pager diff --unified=0 -- _bibliography | head -400
+
+      - name: Commit and redeploy if changed
+        if: ${{ !inputs.dry_run }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- _bibliography; then
+            echo "Publications unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _bibliography
+          git commit -m "Update publications from Zotero"
+          git push
+          # Commits pushed with GITHUB_TOKEN don't trigger other workflows, so start the deploy explicitly.
+          gh workflow run deploy.yml --ref "${GITHUB_REF_NAME}"
