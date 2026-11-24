@@ -18,6 +18,7 @@ How items are sorted into the two files:
     papers.bib  everything else (journal articles, conference papers, preprints,
                 theses, book chapters), or any item tagged "website-main".
     (skipped)   items tagged "website-hide".
+    An entry in _data/bib_extras.yml can also set `list: other` or `list: main`.
 
 Badges, "selected", and links come from _data/bib_extras.yml.
 """
@@ -181,8 +182,10 @@ def main():
             bib = set_key(bib, key)
         seen[key] = True
 
-        is_other = ("website-other" in tags or itype in OTHER_TYPES) and "website-main" not in tags
         conf = dict(per_entry.get(key) or {})
+        is_other = ("website-other" in tags or itype in OTHER_TYPES) and "website-main" not in tags
+        if conf.get("list") in ("other", "main"):
+            is_other = conf["list"] == "other"
         add = {}
         abbr = conf.pop("abbr", None)
         if not abbr:

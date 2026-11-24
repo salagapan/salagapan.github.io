@@ -7,7 +7,8 @@
 # item_types:  fallback badge by Zotero item type when no venue badge applies.
 # entries:     per-paper settings, keyed by the BibTeX key Zotero generates
 #              (e.g. alagapan_cingulate_2023). Supported fields: abbr, selected,
-#              html, pdf, code, arxiv, website, slides, poster, video.
+#              html, pdf, code, arxiv, website, slides, poster, video, and
+#              list (`other` or `main`) to override which list the item goes in.
 #              Set `selected: true` to show a paper on the home page.
 #
 # The sync log lists any entry key below that no longer matches a Zotero item
@@ -79,9 +80,11 @@ entries:
     abbr: Poster
   alagapan_system_2024:
     abbr: Patent
+    list: other
   albarran_anterior_2024:
     abbr: Poster
   rozell_depression_2023:
     html: https://theconversation.com/depression-recovery-can-be-hard-to-measure-new-research-on-deep-brain-stimulation-shows-how-objective-biomarkers-could-help-make-treatment-more-precise-213647
   alagapan_longitudinal_2020:
     abbr: Abstract
+    list: other
